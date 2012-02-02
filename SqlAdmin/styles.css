@@ -1,0 +1,104 @@
+div.erd-table {
+	min-width: 150px;
+	text-align: center;
+	line-height: 1.5em;
+	margin: 2px;
+	border: 1px solid #000;
+	width: 200px;
+	word-wrap: break-word
+}
+
+div.erd-subtables {
+	border-left: 1px solid #999;
+	margin: 10px 10px 10px 0;
+}
+
+.erd td {
+	background: #fff url('./hyphen.jpg') no-repeat 0 50%;
+	padding-left: 10px;
+}
+
+div.child-table {
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+body {
+	padding-top: 3em;
+}
+/*a.index-open {*/
+/*	display: none;*/
+/*}*/
+/*tr:hover a.index-open {*/
+/*	display: inline;*/
+/*}*/
+
+div.wrapper-outer {
+	text-align:center;
+}
+div.wrapper-inner {
+	margin: 0 auto;
+	display: block;
+}
+
+table.details th {
+	text-align: left;
+	background-color: #ccc;
+	border: 1px solid #999;
+	font-weight:normal;
+}
+table.details th.primary-key {
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+table.readable td {
+	border: 1px solid #999;
+	margin: 0;
+}
+table.readable tr:hover th, table.readable tr:hover td {
+	background-color: #E3E9FF;
+	
+}
+
+tr.right td.identical div {
+/* 	color: #ccc; */
+	display:none;
+}
+tr.left td.different {
+	background-color: red;
+	color: #F99;
+	text-decoration: line-through;
+}
+tr.right td.different {
+	background-color: green;
+}
+tr.left_only {
+	background-color: red;
+}
+tr.right_only {
+	background-color: green;
+}
+tr.identical {
+/* 	display:none; */
+	color: #ddd;
+}
+
+tr.left td {
+	border-top: 1px solid #ddd;
+}
+tr.right td {
+	border-bottom: 0.5em solid #fff;
+}
+
+tr.column_headers {
+	z-index:999;
+	display:fixed;
+}
+tr.column_headers th {
+	background-color: #aaa;
+	margin-bottom: 3em;
+	position:static;
+	top:0;
+}
